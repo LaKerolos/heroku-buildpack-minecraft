@@ -28,8 +28,8 @@ echo "done"
 
 echo -n "-----> Installing Minecraft 1.14.4... "
 #curl -o minecraft.jar -s -L $minecraft_url
-#curl -o minecraft.jar -s -L https://launcher.mojang.com/v1/objects/3dc3d84a581f14691199cf6831b71ed1296a9fdf/server.jar
+curl -o minecraft.jar -s -L https://launcher.mojang.com/v1/objects/3dc3d84a581f14691199cf6831b71ed1296a9fdf/server.jar
 #curl -o minecraft.jar -s -L https://launcher.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar
-curl -o minecraft.jar -s -L https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar
+#curl -o minecraft.jar -s -L https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar
 mv minecraft.jar $BUILD_DIR/server.jar
 echo "done"

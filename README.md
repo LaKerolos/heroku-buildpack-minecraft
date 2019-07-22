@@ -34,13 +34,7 @@ $ heroku config:set NGROK_OPTS="-subdomain=my-subdomain"
 
 ### Minecraft
 
-You can choose the Minecraft version by setting the MC_VERSION like so:
-
-```
-$ heroku config:set MC_VERSION="1.10.2"
-```
-
-You can also configure the server properties by creating a `server.properties`
+You can configure the server properties by creating a `server.properties`
 file in your project and adding it to Git. This is how you would set things like
 Creative mode and Hardcore difficulty. The various options available are
 described on the [Minecraft Wiki](http://minecraft.gamepedia.com/Server.properties).
